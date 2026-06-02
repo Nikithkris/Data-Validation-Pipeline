@@ -54,6 +54,49 @@ The project uses a simulated policyholder onboarding dataset containing:
 
 The dataset intentionally includes quality issues to demonstrate validation capabilities.
 
+## Workflow
+
+```text
+Policyholder Dataset
+        |
+        v
+Data Validation Engine
+        |
+        +--> Missing Value Check
+        +--> Duplicate Check
+        +--> Email Validation
+        +--> Age Validation
+        +--> Premium Validation
+        +--> Date Validation
+        |
+        v
+Data Quality Score
+        |
+        v
+Excel Validation Report
+```
+## Sample Output
+
+```text
+============================================================
+POLICYHOLDER DATA VALIDATION REPORT
+============================================================
+
+Total Records: 10
+Missing Values: 2
+Duplicate Records: 1
+Invalid Emails: 2
+Invalid Age Records: 2
+Invalid Premium Records: 1
+Invalid Date Records: 1
+
+============================================================
+DATA QUALITY SCORE: 10/100
+============================================================
+```
+
+
+
 ## Folder Structure
 
 ```text
