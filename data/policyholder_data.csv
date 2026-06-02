@@ -1,0 +1,11 @@
+Policy_ID,Customer_Name,Age,Email,Country,Annual_Premium,Policy_Start_Date
+P1001,John Smith,34,john.smith@email.com,USA,2500,2025-01-15
+P1002,Sarah Jones,45,sarah.jones@email.com,UK,4200,2024-11-20
+P1003,Michael Lee,,michael.lee@email.com,Singapore,3100,2025-03-01
+P1004,Emily Davis,17,emily.davis@email,Canada,1800,2025-02-10
+P1005,Robert Chen,145,robert.chen@email.com,Hong Kong,2900,2024-12-05
+P1006,Aisha Khan,29,,India,3500,2025-01-25
+P1007,David Brown,52,david.brown@email.com,Australia,-500,2025-02-28
+P1008,Linda Green,38,linda.green@email.com,Germany,4100,2025-04-12
+P1008,Linda Green,38,linda.green@email.com,Germany,4100,2025-04-12
+P1009,Kevin Wong,41,kevin.wong@email.com,Singapore,2800,invalid_date
